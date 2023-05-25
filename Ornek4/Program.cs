@@ -17,6 +17,7 @@ namespace Ornek4
             //yeniden kullanılabilirlik
             //bakım maliyeti
             //modüler
+            //ihtiyaç
 
             //Yürü
             //Yemek yap

@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32630.192
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KontrolVeDonguler", "KontrolVeDonguler\KontrolVeDonguler.csproj", "{5B4DB23F-DC7D-4057-B3F0-FBA2278BF25B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_101_KontrolVeDonguler", "KontrolVeDonguler\_101_KontrolVeDonguler.csproj", "{5B4DB23F-DC7D-4057-B3F0-FBA2278BF25B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek1", "Ornek1\Ornek1.csproj", "{5C38A138-3FCC-4642-B933-20D3AA42336A}"
 EndProject
@@ -15,7 +15,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek4", "Ornek4\Ornek4.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek5", "Ornek5\Ornek5.csproj", "{49A37BF3-5913-4CED-BC78-187DAF017E81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework", "Framework\Framework.csproj", "{A6F2BF13-5E9C-47B1-BF71-3149CB11C5D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_202_Framework", "Framework\_202_Framework.csproj", "{A6F2BF13-5E9C-47B1-BF71-3149CB11C5D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek6", "Ornek6\Ornek6.csproj", "{D5F3D703-E8A1-432B-A9E9-933FD8A4859F}"
 EndProject
@@ -24,6 +24,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek8", "Ornek8\Ornek8.csproj", "{4078F754-2346-469A-9413-B0856CE83672}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek9", "Ornek9\Ornek9.csproj", "{49FC5BAE-282E-4E47-95FB-BDE1A8072C89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ornek10", "Ornek10\Ornek10.csproj", "{B2AC01C6-BF30-4E48-8C3B-361B9E431EFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_301_ClassObject", "_301_ClassObject\_301_ClassObject.csproj", "{F58B0A16-C3B2-4A6B-979E-FDFE7FD9BD7E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_301_ExternalAssembly", "_301_ExternalAssembly\_301_ExternalAssembly.csproj", "{5C54AE38-BDEC-4362-9939-00461FD233E0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +81,18 @@ Global
 		{49FC5BAE-282E-4E47-95FB-BDE1A8072C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49FC5BAE-282E-4E47-95FB-BDE1A8072C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49FC5BAE-282E-4E47-95FB-BDE1A8072C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2AC01C6-BF30-4E48-8C3B-361B9E431EFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2AC01C6-BF30-4E48-8C3B-361B9E431EFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2AC01C6-BF30-4E48-8C3B-361B9E431EFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2AC01C6-BF30-4E48-8C3B-361B9E431EFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F58B0A16-C3B2-4A6B-979E-FDFE7FD9BD7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F58B0A16-C3B2-4A6B-979E-FDFE7FD9BD7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F58B0A16-C3B2-4A6B-979E-FDFE7FD9BD7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F58B0A16-C3B2-4A6B-979E-FDFE7FD9BD7E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C54AE38-BDEC-4362-9939-00461FD233E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C54AE38-BDEC-4362-9939-00461FD233E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C54AE38-BDEC-4362-9939-00461FD233E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C54AE38-BDEC-4362-9939-00461FD233E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

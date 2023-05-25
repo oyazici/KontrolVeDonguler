@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D5F3D703-E8A1-432B-A9E9-933FD8A4859F}</ProjectGuid>
+    <ProjectGuid>{B2AC01C6-BF30-4E48-8C3B-361B9E431EFC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ornek6</RootNamespace>
-    <AssemblyName>Ornek6</AssemblyName>
+    <RootNamespace>Ornek10</RootNamespace>
+    <AssemblyName>Ornek10</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -52,7 +52,7 @@
   <ItemGroup>
     <ProjectReference Include="..\Framework\_202_Framework.csproj">
       <Project>{a6f2bf13-5e9c-47b1-bf71-3149cb11c5d4}</Project>
-      <Name>_202_Framework</Name>
+      <Name>Framework</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

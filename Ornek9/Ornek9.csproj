@@ -50,9 +50,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Framework\Framework.csproj">
+    <ProjectReference Include="..\Framework\_202_Framework.csproj">
       <Project>{a6f2bf13-5e9c-47b1-bf71-3149cb11c5d4}</Project>
-      <Name>Framework</Name>
+      <Name>_202_Framework</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -24,7 +24,7 @@ namespace Framework
             bool asalSayiMi = true;
             if (sayi > 2)
             {
-                for (int i = 2; i < (sayi/2+1); i++)
+                for (int i = 2; i < (sayi / 2 + 1); i++)
                 {
                     if (sayi % i == 0)
                     {
@@ -46,6 +46,54 @@ namespace Framework
             {
                 EkranaYaz("Girilen sayı asal sayı değildir.");
             }
+        }
+
+        public static bool UcgenlikTestEt(int birinciKenar, int ikinciKenar, int ucuncuKenar)
+        {
+            //if(birinciKenar+ikinciKenar>ucuncuKenar)
+            //{
+            //    if(birinciKenar+ucuncuKenar>ikinciKenar)
+            //    {
+            //        if(ikinciKenar+ucuncuKenar>birinciKenar)
+            //        {
+
+            //        }
+            //        else
+            //        {
+            //            return false;
+            //        }
+            //    }
+            //    else
+            //    {
+            //        return false;
+            //    }
+            //}
+            //else
+            //{
+            //    return false;
+            //}
+
+            //2 kenarın toplamı 3. kenardan büyük olur ise
+            //2 kenarın farkı 3. kenardan küçük olacak. 
+            //bunu sağlayabilmek için kenarlar arasında 6 adet şartın sağlanması lazım. 
+            bool sart1 = (birinciKenar + ikinciKenar > ucuncuKenar);
+            bool sart2 = (birinciKenar + ucuncuKenar > ikinciKenar);
+            bool sart3 = (ucuncuKenar + ikinciKenar > birinciKenar);
+            bool sart4 = (Math.Abs(ucuncuKenar - ikinciKenar) < birinciKenar);
+            bool sart5 = (Math.Abs(birinciKenar - ikinciKenar) < ucuncuKenar);
+            bool sart6 = (Math.Abs(birinciKenar - ucuncuKenar) < ikinciKenar);
+
+            //bu şartlardan herhangi biri sağlanamaz ise üçgen oluşmayacağından false dönülür 
+
+            if (!sart1 || !sart2 || !sart3 || !sart4 || !sart5 || !sart6)
+            {
+                return false;
+            }
+            else
+            {
+                return true;
+            }
+
         }
 
         public static bool CiftMi(int sayi)
