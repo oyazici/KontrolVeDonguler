@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B2AC01C6-BF30-4E48-8C3B-361B9E431EFC}</ProjectGuid>
+    <ProjectGuid>{AA5007DB-986F-491E-9C45-AB49716427CB}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Ornek10</RootNamespace>
-    <AssemblyName>Ornek10</AssemblyName>
+    <RootNamespace>_304_Inheritance</RootNamespace>
+    <AssemblyName>_304_Inheritance</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,17 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Canli.cs" />
+    <Compile Include="Civciv.cs" />
+    <Compile Include="ICanli.cs" />
+    <Compile Include="IUcabilir.cs" />
+    <Compile Include="Karga.cs" />
+    <Compile Include="Kus.cs" />
+    <Compile Include="MuhabbetKusu.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Framework\_202_Framework.csproj">
-      <Project>{a6f2bf13-5e9c-47b1-bf71-3149cb11c5d4}</Project>
-      <Name>_202_Framework</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
