@@ -40,19 +40,25 @@ namespace _304_Inheritance
             CekirdekKod(karga);
 
             Kus kus = new Karga();
+
+           // Karga karga = (Karga)kus;
+
             ICanli canli = new Karga();
+            object obj = canli;
+
+
             Karga karga2=(Karga)canli; //if is
+
+
             karga2.Beslen();
             Console.Read();
 
 
-            //görev: enum, struct, tupple
+            //görev: enum, struct, tupple, sealed class,const, readonly
             //static, generic, linked list ve collection, 
             //ICanli canli = new Karga();
             //Karga karga2 = (Karga)canli; //if is
             //karga2.Beslen();
-
-            
         }
 
         public static void CekirdekKod(Kus kus) //parametre sayısı 5 i aşmamalı
@@ -83,6 +89,14 @@ namespace _304_Inheritance
         public static void Oldur(ICanli canli)
         {
             canli.Ol();
+            if(canli is Karga)
+            {
+                Karga karga2 = (Karga)canli;
+            }
+            else if (canli is MuhabbetKusu)
+            {
+                MuhabbetKusu muhabbetKusu = (MuhabbetKusu)canli;
+            }
         }
     }
 
