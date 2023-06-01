@@ -40,6 +40,7 @@ namespace _307_Collections
             List<int> sayilar = new List<int>();
             sayilar.Add(1);
             sayilar.Add(1);
+            sayilar.Add(5);
 
             //linq
             List<int> result = (from sayi4 in sayilar 
@@ -53,7 +54,15 @@ namespace _307_Collections
             sayilar.Where(method).ToList();
             method.Invoke(5);
 
-           int sayi2= sayilar[0];
+            //foreach (var item in collection)
+            //{
+            //    item=new item...
+            //    collection.add
+            //    collection.remove
+            //    collection=new Collection....
+            //}
+
+            int sayi2= sayilar[0];
             Queue<string> bankaSirasi = new Queue<string>(); //ilk giren son çıkar
             bankaSirasi.Enqueue("osman");
             bankaSirasi.Enqueue("Sertaç");
@@ -79,6 +88,34 @@ namespace _307_Collections
             //immutable
             //Ado.Net
             //ntier
+
+
+            //isimlendirme
+            //1- ayrılmış kelimeler kullanılmaz @
+            //2- sayi ile başlayamaz
+            //3- simge kullanımı yapılmaz. sadece _ ve . kullanılır
+            //4- eğer başta sayı kullanılacak ise _ ile başlanır
+            //5- boşluk ifadesi olarak _ kullanılabilir. (proje)
+            //6- Anlamlı, bitişik ifadeler olmalı (int a, int sayi gibi ifadeler kullanılmaz.) kullanicidanAlinmisOlupIslemGorecekSayi
+
+            
+            //isimlendirme modelleri
+            //1-Pascal Case      BankaSirasi
+            //2-Camel Case       bankaSirasi
+            //3-Ada Case         BANKA_SIRASI            
+            //4-Apache Case      BANkaSirasI
+
+            //Solution - pascal
+            //Proje - pascal (.)
+            //Namespace, pascal (.)
+            //Class,enum,interface(I) pascal
+            //Constructor-method-decontructor-property-Event-delegate-(metot hizmetlileri) Pascal
+            //field camalcase (başa _)
+            //değişken camalCase
+            //const Ada case
+            //readonly static field bazen Ada case
+
+
         }
 
         public void IslemYap(IList liste)
